@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: tngan;
+    font-family: annatar;
     src: url('fonts/annatar/tngani.ttf');
 }
 
@@ -17,6 +17,7 @@ body {
     font-family: partybusiness;
     font-weight: bold;
     font-size: 1em;
+    background: url("pictures/bg_light.png");
 }
 
 .blocpage {
@@ -36,6 +37,13 @@ body {
     font-size: 1em;
 }
 
+.carousel-caption {
+    font-family: partybusiness;
+    font-size: 3rem;
+    position: absolute;
+    top: 30%;
+}
+
 .carousel img {
     height: 450px;
     width: 100%;
@@ -50,6 +58,7 @@ body {
 #contact,
 .card-header {
     font-weight: bold;
+    font-family: aniron;
 }
 
 .topsection {
@@ -61,31 +70,81 @@ body {
     font-size: 0.6em;
 }
 
-.nav-pills {
-    max-width: 50%;
+.strange {
+    font-family: annatar;
+    color: #E55A38;
+    font-size: 0.7em;
 }
+
+.pilila {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    color: #72726D;
+}
+
+.pilili {
+    color: #72726D;
+    font-family: aniron;
+    list-style: none;
+    display: flex;
+    text-align: center;
+
+}
+
+.pilili a {
+    color: #72726D;
+    font-family: aniron;
+}
+
+.pilili a:hover {
+    color: orangered;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 
 .blocimage {
     display: flex;
     text-align: center;
-    vertical-align: top;
+    vertical-align: center;
+    border: solid black 3px;
 }
 
 .blocimage img {
     opacity: 0.5;
 
+
+}
+
+.card-body {
+    background-color: black;
 }
 
 .reward {
-    font-size: 0.7em;
+
+    font-family: aniron;
+    font-size: 1em;
     width: 10rem;
     background-color: white;
     color: black;
     border-radius: 10px;
     position: absolute;
-    top: 0.7%;
+    top: 10%;
     left: 4rem;
+    opacity: 0.8;
+}
 
+.textnom {
+    font-family: aniron;
+    font-size: 1.4em;
+    width: 10rem;
+    background-color: none;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 4rem;
+    opacity: 0.8;
 }
 
 .reward span {
@@ -101,10 +160,15 @@ body {
     opacity: 0;
 }
 
+.blocimage:hover .textnom {
+    font-size: 1em;
+    top: 50%;
+}
+
 .blocimage2 {
     display: flex;
     text-align: center;
-
+    border: solid black 3px;
 }
 
 .blocimage2 img {
@@ -116,32 +180,40 @@ body {
     font-size: 2em;
     width: 10rem;
     background-color: none;
-    color: black;
+    color: orangered;
     position: absolute;
-    top: 33%;
+    top: 10%;
     left: 4rem;
+    text-decoration: line-through;
 }
 
 .status span {
-    color: black;
+    color: orangered;
     font-weight: bold;
     vertical-align: center;
     opacity: 0.5;
+    text-decoration: line-through;
 }
 
-.blocimage2:hover img {
-    opacity: 1;
+.getreward {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    background: url("pictures/bg_dark.png");
 }
 
-.blocimage2:hover .status {
-    opacity: 0;
-}
 
+
+.coin {
+    border-radius: 100%;
+}
 
 .bloque {
     max-height: 82px;
-    overflow: scroll;
-    padding: 5px;
+    padding: 10px;
+    text-align: justify;
 }
 
 .buttons {
@@ -153,16 +225,57 @@ body {
     border-radius: 10px;
 }
 
+.besth {
+    font-family: aniron;
+    color: #E55A38;
+    font-size: 2em;
+}
+
+.media-body a {
+    color: #72726D;
+    font-family: aniron;
+    font-size: 1.2em;
+}
+
+.media-body a:hover {
+    color: orangered;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+.capture {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.aboutring {
+    padding: 20px;
+
+    color: white;
+    background: url("pictures/bg_dark.png");
+}
+
+.capabilities {
+    background-color: #E55A38;
+}
+
 table {
     text-align: center;
 
 }
 
-thead,
+thead {
+    border-bottom: solid 3px black;
+    background-color: grey;
+    font-size: 2em;
+}
+
 tbody,
 th,
 td {
-    border: solid 3px black;
+    border-bottom: solid 3px #B8B8B8;
+    background-color: grey;
+    font-size: 1.3em;
 }
 
 .quote {
@@ -171,8 +284,8 @@ td {
     font-size: 0.8em;
 }
 
-.rounded-circle {
-    border: solid 2px black;
+.precious {
+    font-size: 3em;
 }
 
 fieldset {
