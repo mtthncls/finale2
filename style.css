@@ -1,0 +1,209 @@
+@font-face {
+    font-family: partybusiness;
+    src: url('fonts/party/partybusiness.ttf');
+}
+
+@font-face {
+    font-family: aniron;
+    src: url('fonts/aniron/anicb___.ttf');
+}
+
+@font-face {
+    font-family: tngan;
+    src: url('fonts/annatar/tngani.ttf');
+}
+
+body {
+    font-family: partybusiness;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.blocpage {
+
+    margin: auto;
+}
+
+.row {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1em;
+}
+
+.carousel img {
+    height: 450px;
+    width: 100%;
+}
+
+
+#fellows,
+#hunters,
+#ring,
+#reward,
+#army,
+#contact,
+.card-header {
+    font-weight: bold;
+}
+
+.topsection {
+    padding-top: 12px;
+}
+
+#fellows span {
+    font-weight: normal;
+    font-size: 0.6em;
+}
+
+.nav-pills {
+    max-width: 50%;
+}
+
+.blocimage {
+    display: flex;
+    text-align: center;
+    vertical-align: top;
+}
+
+.blocimage img {
+    opacity: 0.5;
+
+}
+
+.reward {
+    font-size: 0.7em;
+    width: 10rem;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    position: absolute;
+    top: 0.7%;
+    left: 4rem;
+
+}
+
+.reward span {
+    color: orange;
+    font-weight: bold;
+}
+
+.blocimage:hover img {
+    opacity: 1;
+}
+
+.blocimage:hover .reward {
+    opacity: 0;
+}
+
+.blocimage2 {
+    display: flex;
+    text-align: center;
+
+}
+
+.blocimage2 img {
+    opacity: 0.5;
+
+}
+
+.status {
+    font-size: 2em;
+    width: 10rem;
+    background-color: none;
+    color: black;
+    position: absolute;
+    top: 33%;
+    left: 4rem;
+}
+
+.status span {
+    color: black;
+    font-weight: bold;
+    vertical-align: center;
+    opacity: 0.5;
+}
+
+.blocimage2:hover img {
+    opacity: 1;
+}
+
+.blocimage2:hover .status {
+    opacity: 0;
+}
+
+
+.bloque {
+    max-height: 82px;
+    overflow: scroll;
+    padding: 5px;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.buttoncontact {
+    border-radius: 10px;
+}
+
+table {
+    text-align: center;
+
+}
+
+thead,
+tbody,
+th,
+td {
+    border: solid 3px black;
+}
+
+.quote {
+    text-align: right;
+    width: 100%;
+    font-size: 0.8em;
+}
+
+.rounded-circle {
+    border: solid 2px black;
+}
+
+fieldset {
+    margin: auto;
+    max-width: 90%;
+    padding-top: 20px;
+}
+
+.bold {
+    border: solid 2px black;
+}
+
+
+.bigfoot {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(54, 55, 56);
+
+}
+
+.bigfoot a {
+    color: white;
+    justify-content: center;
+}
+
+.foot {
+    list-style: none;
+}
+
+@media screen and (max-width: 576px) {
+    .foot {
+        font-size: 0.7em;
+    }
+}
