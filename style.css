@@ -79,7 +79,7 @@ header .navbar {
 }
 
 
-.strange span {
+.fellows span {
     font-weight: normal;
     font-size: 0.6em;
 }
@@ -217,9 +217,7 @@ header .navbar {
 
 
 
-.coin {
-    border-radius: 100%;
-}
+
 
 .bloque {
     max-height: 82px;
