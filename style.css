@@ -20,11 +20,6 @@ body {
     background: url("pictures/bg_light.png");
 }
 
-.blocpage {
-
-    margin: auto;
-}
-
 .row {
     padding-top: 0.5%;
     padding-bottom: 0.5%;
@@ -32,10 +27,25 @@ body {
     margin-right: 0;
 }
 
+header .navbar {
+    background-color: #ff7200;
+    font-size: 1.6em;
+}
+
+.navbar-brand {
+    width: 80%;
+}
+
+.nav-link span {
+    text-decoration: underline;
+}
+
 .nav-link {
     color: white;
     font-size: 1em;
 }
+
+
 
 .carousel-caption {
     font-family: partybusiness;
