@@ -1,3 +1,5 @@
+/* Fonts added */
+
 @font-face {
     font-family: partybusiness;
     src: url('fonts/party/partybusiness.ttf');
@@ -13,6 +15,8 @@
     src: url('fonts/annatar/tngani.ttf');
 }
 
+/* General formatting */
+
 body {
     font-family: partybusiness;
     font-weight: bold;
@@ -27,6 +31,8 @@ body {
     margin-right: 0;
 }
 
+/* Navbar & Header formatting */
+
 header .navbar {
     background-color: #ff7200;
     font-size: 1.6em;
@@ -36,29 +42,29 @@ header .navbar {
     width: 80%;
 }
 
-.nav-link span {
-    text-decoration: underline;
-}
-
 .nav-link {
     color: white;
     font-size: 1em;
 }
 
+.nav-link span {
+    text-decoration: underline;
+}
 
+/*Carousel formatting */
 
 .carousel-caption {
     font-family: partybusiness;
     font-size: 3rem;
     position: absolute;
-    top: 30%;
+    top: 35%;
 }
 
 .carousel img {
-    height: 450px;
     width: 100%;
 }
 
+/* Sections general formatting */
 
 #fellows,
 #hunters,
@@ -69,11 +75,9 @@ header .navbar {
 .card-header {
     font-weight: bold;
     font-family: aniron;
+    padding-top: 12px
 }
 
-.topsection {
-    padding-top: 12px;
-}
 
 #fellows span {
     font-weight: normal;
