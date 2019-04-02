@@ -100,9 +100,7 @@ header .navbar {
 .pilili {
     color: #72726D;
     font-family: aniron;
-    list-style: none;
-    display: flex;
-    text-align: center;
+
 
 }
 
@@ -112,7 +110,7 @@ header .navbar {
 }
 
 .pilili a:hover {
-    color: orangered;
+    color: #ff7200;
     text-decoration: underline;
     font-weight: bold;
 }
