@@ -249,9 +249,9 @@ header .navbar {
     color : #ff7200;
 }
 
-/* about the ring section */
+/* about the ring, army and contact section */
 
-.aboutring {
+.aboutring, .army, .contact{
     padding: 20px;
 
     color: white;
@@ -271,7 +271,7 @@ header .navbar {
 }
 
 .precious {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 fieldset {
@@ -284,11 +284,12 @@ fieldset {
     border: solid 2px black;
 }
 
+/* footer */
 
 .bigfoot {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(54, 55, 56);
+    background-color: #ff7200;
 
 }
 
