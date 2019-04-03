@@ -175,6 +175,7 @@ header .navbar {
     display: flex;
     text-align: center;
     border: solid black 3px;
+    margin: 2px;
 }
 
 .blocimage2 img {
