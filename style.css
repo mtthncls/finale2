@@ -68,7 +68,6 @@ header .navbar {
 
 #fellows,
 #hunters,
-#ring,
 #reward,
 #army,
 #contact,
@@ -78,6 +77,7 @@ header .navbar {
     padding-top: 12px
 }
 
+/* Titre section fellows */
 
 .fellows span {
     font-weight: normal;
@@ -89,6 +89,8 @@ header .navbar {
     color: #E55A38;
     font-size: 0.7em;
 }
+
+/* Effects fellows cards */
 
 .pilili {
     color: #72726D;
@@ -199,6 +201,8 @@ header .navbar {
     text-decoration: line-through;
 }
 
+/* get my reward section */
+
 .getreward {
     display: flex;
     flex-direction: column;
@@ -208,30 +212,12 @@ header .navbar {
     background: url("pictures/bg_dark.png");
 }
 
-
-
-
-
-.bloque {
-    max-height: 82px;
-    padding: 10px;
-    text-align: justify;
-}
-
-.buttons {
-    text-align: center;
-    padding-top: 20px;
-}
-
 .buttoncontact {
     border-radius: 10px;
+    color: #ff7200;
 }
 
-.besth {
-    font-family: aniron;
-    color: #E55A38;
-    font-size: 2em;
-}
+/* hunters section */
 
 .media-body a {
     color: #72726D;
@@ -245,10 +231,25 @@ header .navbar {
     font-size: 1.2em;
 }
 
+.besth {
+    font-family: aniron;
+    color: #E55A38;
+    font-size: 1em;
+}
+
 .capture {
-    font-size: 1.2em;
+    font-size: 1.0em;
     font-weight: bold;
 }
+
+.like{
+    background: url("pictures/bg_dark.png");
+    border: 1px solid #0F1010;
+    border-radius: 3px;
+    color : #ff7200;
+}
+
+/* about the ring section */
 
 .aboutring {
     padding: 20px;
@@ -261,24 +262,7 @@ header .navbar {
     background-color: #E55A38;
 }
 
-table {
-    text-align: center;
 
-}
-
-thead {
-    border-bottom: solid 3px black;
-    background-color: grey;
-    font-size: 2em;
-}
-
-tbody,
-th,
-td {
-    border-bottom: solid 3px #B8B8B8;
-    background-color: grey;
-    font-size: 1.3em;
-}
 
 .quote {
     text-align: right;
